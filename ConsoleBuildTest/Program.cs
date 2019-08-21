@@ -11,7 +11,7 @@ namespace ConsoleBuildTest
     {
         static void Main(string[] args)
         {
-            var obj = new { Name = "Tyler", Age = 38 };
+            var obj = new { Name = "Tyler", Age = 2323 };
             string jonStr = JsonConvert.SerializeObject(obj);
             Console.WriteLine(jonStr);
             Console.ReadKey();
